@@ -29,6 +29,8 @@ export function resolveProductImage(value?: string | null): string {
 }
 
 export const categoryImages: Record<string, string> = {
+  existing: lungs,
+  upcoming: brain,
   cardiovascular: heart,
   neurological: brain,
   pulmonary: lungs,
