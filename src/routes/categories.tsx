@@ -8,10 +8,10 @@ import { categoryImages } from "@/lib/product-images";
 export const Route = createFileRoute("/categories")({
   head: () => ({
     meta: [
-      { title: "Categories — MediLens" },
-      { name: "description", content: "Explore MediLens products grouped by medical specialty." },
-      { property: "og:title", content: "Categories — MediLens" },
-      { property: "og:description", content: "Explore MediLens products grouped by medical specialty." },
+      { title: "Categories — Dectrocel®" },
+      { name: "description", content: "Browse Dectrocel products grouped by existing and upcoming AI modalities." },
+      { property: "og:title", content: "Categories — Dectrocel®" },
+      { property: "og:description", content: "Browse Dectrocel AI products by category." },
     ],
   }),
   component: Categories,
@@ -29,10 +29,10 @@ function Categories() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-10">
       <div className="max-w-3xl">
-        <p className="text-xs uppercase tracking-wider text-primary">Specialties</p>
+        <p className="text-xs uppercase tracking-wider text-primary">Lineup</p>
         <h1 className="text-display mt-3 text-5xl sm:text-6xl">Categories.</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          Find diagnostic platforms by medical specialty.
+          Available today, and what's coming next from Dectrocel.
         </p>
       </div>
 

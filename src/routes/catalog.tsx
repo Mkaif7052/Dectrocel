@@ -8,10 +8,10 @@ import type { Category, Product } from "@/lib/types";
 export const Route = createFileRoute("/catalog")({
   head: () => ({
     meta: [
-      { title: "Product Catalog — MediLens" },
-      { name: "description", content: "Browse all MediLens AI diagnostic products. Search and filter by category." },
-      { property: "og:title", content: "Product Catalog — MediLens" },
-      { property: "og:description", content: "Browse all MediLens AI diagnostic products." },
+      { title: "Products — Dectrocel®" },
+      { name: "description", content: "Browse all Dectrocel AI-powered respiratory and radiology products. Search and filter by category." },
+      { property: "og:title", content: "Products — Dectrocel®" },
+      { property: "og:description", content: "Browse all Dectrocel AI-powered diagnostic products." },
     ],
   }),
   component: Catalog,
@@ -46,9 +46,9 @@ function Catalog() {
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-10">
       <div className="max-w-3xl">
         <p className="text-xs uppercase tracking-wider text-primary">Catalog</p>
-        <h1 className="text-display mt-3 text-5xl sm:text-6xl">All products.</h1>
+        <h1 className="text-display mt-3 text-5xl sm:text-6xl">Dectrocel products.</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          Explore our complete suite of AI-powered diagnostic platforms across specialties.
+          Explore our complete suite of AI-powered radiology platforms — from chest X-ray and CT Thorax to upcoming MRI, ultrasound and PET-CT modalities.
         </p>
       </div>
 

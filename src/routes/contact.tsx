@@ -21,10 +21,10 @@ export const Route = createFileRoute("/contact")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Contact — MediLens" },
-      { name: "description", content: "Request a demo, ask about products, or partner with MediLens." },
-      { property: "og:title", content: "Contact — MediLens" },
-      { property: "og:description", content: "Request a demo or get in touch with our team." },
+      { title: "Contact — Dectrocel®" },
+      { name: "description", content: "Get in touch with the Dectrocel team. Request a demo, ask about products, or partner with us." },
+      { property: "og:title", content: "Contact — Dectrocel®" },
+      { property: "og:description", content: "Request a demo or get in touch with the Dectrocel team." },
     ],
   }),
   component: Contact,
@@ -84,21 +84,26 @@ function Contact() {
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-soft text-primary"><Mail className="h-4 w-4" /></div>
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-muted-foreground">hello@medilens.bio</p>
+                <p className="text-muted-foreground">support@dectrocel.com</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-soft text-primary"><Phone className="h-4 w-4" /></div>
               <div>
                 <p className="font-medium">Phone</p>
-                <p className="text-muted-foreground">+1 (555) 0123-4567</p>
+                <p className="text-muted-foreground">+91 9807194222</p>
               </div>
             </li>
             <li className="flex items-start gap-4">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-soft text-primary"><MapPin className="h-4 w-4" /></div>
               <div>
                 <p className="font-medium">Office</p>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <p className="text-muted-foreground">
+                  MedTech CoE, Third Floor,<br />
+                  Opposite Admin Block, SGPGIMS,<br />
+                  Raebareli Road, Lucknow,<br />
+                  Uttar Pradesh – 226014
+                </p>
               </div>
             </li>
           </ul>

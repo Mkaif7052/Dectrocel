@@ -1,6 +1,7 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
+import { MobileBottomNav } from "@/components/site/MobileBottomNav";
 import { Toaster } from "@/components/ui/sonner";
 
 import appCss from "../styles.css?url";
@@ -32,9 +33,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "MediLens — AI-Powered Medical Diagnostics" },
-      { name: "description", content: "Empowering healthcare providers to make faster, more accurate decisions with self-supervised AI for medical imaging." },
-      { name: "author", content: "MediLens" },
+      { title: "Dectrocel® — Revolutionising Respiratory Healthcare in X-ray AI" },
+      { name: "description", content: "Dectrocel AI Tool delivers fast, accurate assessment of lung health using digital chest X-rays and CT Thorax imaging." },
+      { name: "author", content: "Dectrocel" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -72,6 +73,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <Footer />
+      <MobileBottomNav />
       <Toaster />
     </div>
   );
