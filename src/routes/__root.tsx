@@ -38,6 +38,12 @@ export const Route = createRootRoute({
       { name: "author", content: "Dectrocel" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Dectrocel® — Revolutionising Respiratory Healthcare in X-ray AI" },
+      { name: "twitter:title", content: "Dectrocel® — Revolutionising Respiratory Healthcare in X-ray AI" },
+      { property: "og:description", content: "Dectrocel AI Tool delivers fast, accurate assessment of lung health using digital chest X-rays and CT Thorax imaging." },
+      { name: "twitter:description", content: "Dectrocel AI Tool delivers fast, accurate assessment of lung health using digital chest X-rays and CT Thorax imaging." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbdd8865-c15b-4205-9e2e-4fbc3b870548/id-preview-0755c9d1--9504bdb7-b0c2-4749-a60e-046fcb0f6552.lovable.app-1777204000050.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fbdd8865-c15b-4205-9e2e-4fbc3b870548/id-preview-0755c9d1--9504bdb7-b0c2-4749-a60e-046fcb0f6552.lovable.app-1777204000050.png" },
     ],
     links: [
       {
